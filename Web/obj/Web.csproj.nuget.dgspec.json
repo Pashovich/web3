@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Downloads\\tsu_web_back-lab33\\tsu_web_back-lab3\\Web\\Web.csproj": {}
+    "C:\\Users\\USER\\Downloads\\sad\\Web\\Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Downloads\\tsu_web_back-lab33\\tsu_web_back-lab3\\Web\\Web.csproj": {
+    "C:\\Users\\USER\\Downloads\\sad\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Downloads\\tsu_web_back-lab33\\tsu_web_back-lab3\\Web\\Web.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Downloads\\sad\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "C:\\Users\\USER\\Downloads\\tsu_web_back-lab33\\tsu_web_back-lab3\\Web\\Web.csproj",
+        "projectPath": "C:\\Users\\USER\\Downloads\\sad\\Web\\Web.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Downloads\\tsu_web_back-lab33\\tsu_web_back-lab3\\Web\\obj\\",
+        "outputPath": "C:\\Users\\USER\\Downloads\\sad\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",

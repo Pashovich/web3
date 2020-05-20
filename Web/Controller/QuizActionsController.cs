@@ -15,23 +15,21 @@ namespace Web.Controllers
         [HttpPost]
         public IActionResult Quiz(Operations operation, string action)
         {
-            if (action == "Next")
+            if (ModelState.IsValid)
             {
-                if (ModelState.IsValid)
-                {
-                    CorrectAnswers answers = CorrectAnswers.Instance;
-                    answers.Total += 1;
-                    if (operation.Check())
-                        answers.Correct += 1;
-                    (answers.Answers).Add(operation);
-                }
-                else
-                {
-                    ModelState.AddModelError("YourAnswer", "недопустимый формат ответа");
-                    return View(operation);
-                }
-                return View(new Operations());
+                CorrectAnswers answers = CorrectAnswers.Instance;
+                answers.Total += 1;
+                if (operation.Check())
+                    answers.Correct += 1;
+                (answers.Answers).Add(operation);
             }
+            else
+            {
+                ModelState.AddModelError("YourAnswer", "недопустимый формат ответа");
+                return View(operation);
+            }
+            if (action == "Next")
+                return View(new Operations());
             return RedirectToAction("QuizResult");
         }
 
